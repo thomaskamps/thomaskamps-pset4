@@ -1,12 +1,12 @@
 ## Code Review
-
-1 - The chosen variable names are mostly good and associated with what they do.
-2 - There are no header comments present, so they should be added.
-3 - The general comments throughout the code are good and provide enough information.
-4 - Layout of the elements is fine, but no special care taken to order it.
-5 - The format of the code is usually good, at some points a little more whitespace is wanted.
-6 - Flow is pretty simple and easy to follow.
-7 - Too much duplicate code, with two full AsyncTasks that almost do the same and the repeating button handlers at the bottom of each file.
-8 - The variables are mostly reused, but it could be more efficient.
-9 - The modules are quite seperated which makes it easy to read the code.
-10 - The statments per line are usually not too dense, which allows for an easy distinctions with what each line does.
+  
+1 - The names of the variables you chose are most of the times well chosen, try to get all of them right.  
+2 - There is a general lack of comments, really remember to add some!  
+3 - Your storyboard looks clean and ordered.
+4 - The layout of your app looks very good, everything is neat and the screen is rotatable.
+5 - The formatting of your code is overall pretty good and readable.
+6 - Choose the name of your controllers wisely, and try not to have too much duplicate code between them.
+7 - Your app contains much duplicate code, for instance the pieces of code that handle API-calls.
+8 - You do pay attention to using constants and variables.
+9 - Typecasting is a bit of a mess at some places.
+10 - Code is divisioned into multiple lines when it is about to get messy. This allows for good reading.
